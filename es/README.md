@@ -1,6 +1,6 @@
 # Asesor de Transformación: Introducción al Descubrimiento de Código Común
 
-![banner](./images/media/image1.jpeg)
+![banner](./../images/media/image1.jpeg)
 
 **Duración:** 60 minutos
 
@@ -67,7 +67,7 @@ De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerl
 
 El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Workstation.
 
-<kbd><img src="./images/media/workstation.png" alt=""></kbd>
+<kbd><img src="./../images/media/workstation.png" alt=""></kbd>
 
 <br>
 
@@ -81,17 +81,17 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     c. Haga clic en el enlace **`vnc.html`** para abrir el entorno de laboratorio a través de la interfaz **noVNC** .
 
-    <kbd><img src="./images/media/vnc-link.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-link.png" alt=""></kbd>
 
     d. Haga clic en el botón **`Connect`**
 
-    <kbd><img src="./images/media/vnc-connect.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-connect.png" alt=""></kbd>
 
     e. Ingrese la contraseña: **`IBMDem0s!`** Luego, haga clic en el botón **`Send Credentials`** para acceder al entorno de laboratorio.
 
     > Nota: ¡Eso es un cero numérico en IBMDem0s!
 
-    <kbd><img src="./images/media/vnc-password.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-password.png" alt=""></kbd>
 
      <br>
     
@@ -109,7 +109,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      <br>
 
 
-    <kbd><img src="./images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
+    <kbd><img src="./../images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
 
      <br>
     
@@ -120,11 +120,11 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     a. Desde la máquina virtual del entorno, haga clic en el **icono de giro** en el panel de control noNC para abrir el menú.
 
-    <kbd><img src="./images/media/z-twisty.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/z-twisty.png" alt="ajustar a la ventana"></kbd>
 
     b. Para aumentar el área visible, haga clic en `Settings > Scaling Mode` y configure el valor en `Remote Resizing`
 
-    <kbd><img src="./images/media/z-remote-resize.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/z-remote-resize.png" alt="ajustar a la ventana"></kbd>
 
 2. Puede copiar/pegar texto de la guía de laboratorio en el entorno de laboratorio utilizando el portapapeles en el visor noVNC.
 
@@ -132,7 +132,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     b. Haga clic en el icono **del Portapapeles** y **pegue** el texto en el portapapeles de noVNC.
 
-    <kbd><img src="./images/media/paste.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/paste.png" alt="ajustar a la ventana"></kbd>
 
     c. Pegue el texto en la máquina virtual, como en una ventana de terminal, una ventana del navegador, etc.
 
@@ -142,7 +142,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
 <!-- LBH: Added description how to access toolbar -->
 
-1. Haga clic en el ícono **`Activities`** dentro de la máquina virtual para cambiar entre diferentes ventanas u obtener acceso a la barra de herramientas. <kbd></kbd>![ajustar a la ventana](./images/media/Activies.png)<br>
+1. Haga clic en el ícono **`Activities`** dentro de la máquina virtual para cambiar entre diferentes ventanas u obtener acceso a la barra de herramientas. <kbd></kbd>![ajustar a la ventana](./../images/media/Activies.png)<br>
 
 # Parte 1: Cargar datos de WebSphere Application Server en TA
 
@@ -164,7 +164,7 @@ En esta sección del laboratorio, clonará el repositorio de GitHub en el entorn
 
     <!-- LBH: Updated description how to access toolbar -->
 
-    <kbd><img src="./images/media/Toolbar_terminal.png" alt=""></kbd>
+    <kbd><img src="./../images/media/Toolbar_terminal.png" alt=""></kbd>
 
     b. Clone el repositorio de GitHub ejecutando los siguientes comandos desde la ventana del terminal.
 
@@ -198,13 +198,13 @@ En esta sección del laboratorio, clonará el repositorio de GitHub en el entorn
 
     b. Escriba **`5`** para iniciar Transformation Advisor y presione **`Enter`** .
 
-    <kbd><img src="./images/media/image9_new.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image9_new.png" alt=""></kbd>
 
     Esto inicia el Asesor de Transformación. Tras iniciar TA Local, se proporciona la URL de la consola de TA: **http://rhel9-base.gym.lan:3000** .
 
     <!-- LBH: Adjusted URL as it changed -->
 
-    <kbd><img src="./images/media/TA_has_started.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_has_started.png" alt=""></kbd>
 
 3. Cargar datos masivos de WebSphere Application Server a TA Local.
 
@@ -266,7 +266,7 @@ En esta sección del laboratorio, clonará el repositorio de GitHub en el entorn
 
     Puede seguir el progreso de la carga utilizando el comando que se muestra al final de la salida “bulkImport” en la ventana del terminal.
 
-    **Ejemplo:** utilice el ícono **de Actividades** para cambiar a la barra de herramientas, luego haga clic en el ícono **de Firefox** para abrir una ventana del navegador. <kbd></kbd>![](./images/media/Toolbar_firefox.png)
+    **Ejemplo:** utilice el ícono **de Actividades** para cambiar a la barra de herramientas, luego haga clic en el ícono **de Firefox** para abrir una ventana del navegador. <kbd></kbd>![](./../images/media/Toolbar_firefox.png)
 
     Desde el navegador web, acceda a la página de estado a través de una URL similar a esta:
 
@@ -276,7 +276,7 @@ En esta sección del laboratorio, clonará el repositorio de GitHub en el entorn
 
     Recargue la página de estado repetidamente hasta que vea el mensaje " **Carga masiva completada".**
 
-    <kbd><img src="./images/media/TA_Bulk_Status.png" alt=""></kbd>
+    <kbd><img src="./../images/media/TA_Bulk_Status.png" alt=""></kbd>
 
     **Nota:** También puedes seguir el progreso de la carga siguiendo los registros del contenedor Docker **de taserver** .
 
@@ -294,17 +294,17 @@ Una vez que se completa el procesamiento de carga masiva de datos, se crea un **
 
 1. Abra el nuevo espacio de trabajo en la consola TA
 
-    a. Abra la ventana del navegador. En la ventana del navegador web, haga clic en el **`TA Local bookmark`** para abrir la consola TA. <kbd></kbd>![](./images/media/firefox_bookmark_TA.png)
+    a. Abra la ventana del navegador. En la ventana del navegador web, haga clic en el **`TA Local bookmark`** para abrir la consola TA. <kbd></kbd>![](./../images/media/firefox_bookmark_TA.png)
 
     La URL local de TA es: **http://rhel9-base.gym.lan:3000**
 
     Se muestra **la página de bienvenida de TA UI** y puedes ver que el espacio de trabajo **ta300_data_3** está incluido.
 
-    <kbd><img src="./images/media/image14.png" alt="Interfaz gráfica de usuario, aplicación, Teams Descripción generada automáticamente"></kbd>
+    <kbd><img src="./../images/media/image14.png" alt="Interfaz gráfica de usuario, aplicación, Teams Descripción generada automáticamente"></kbd>
 
 2. Haga clic en el enlace del espacio de trabajo **`ta300_data_3`** para acceder al espacio de trabajo.
 
-    <kbd><img src="./images/media/image15.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image15.png" alt=""></kbd>
 
     Se muestra la página del espacio de trabajo **ta300_data_3** y se han evaluado 15 aplicaciones Java, incluidas 5 aplicaciones relacionadas con la aplicación ACME.
 
@@ -314,18 +314,18 @@ Una vez que se completa el procesamiento de carga masiva de datos, se crea un **
 
     En este resumen, **el costo de modernizar el código común** es de **8,5** días y **el costo de modernizar una aplicación única** es de **89,5** días.
 
-<kbd><img src="./images/media/TA_all15Apps_WLP_Costs.png" alt=""></kbd>
+<kbd><img src="./../images/media/TA_all15Apps_WLP_Costs.png" alt=""></kbd>
 
 ```
 The workspace includes analysis of applications from **three** (3) WebSphere Application Server environments, per the bulk upload.
 
 The bulk upload operation loaded the applications into TA, each into a separate “**collection**”. The name of the collections was determined by the hostnames of the WebSphere server where the applications were running. These names can be overridden in the TA UI, if desired.
 
-<kbd>![Graphical user interface, text, application Description automatically generated](./images/media/image18.png)</kbd>
+<kbd>![Graphical user interface, text, application Description automatically generated](./../images/media/image18.png)</kbd>
 
 These default collection names can be overridden in the TA UI, if desired, by using the “**edit collection**” option from the Options menu. For this lab, you will just keep the default collection names.
 
-<kbd>![](./images/media/image19.png)</kbd>
+<kbd>![](./../images/media/image19.png)</kbd>
 
 
 <br/>
@@ -345,27 +345,27 @@ Creemos un nuevo grupo para las aplicaciones ACME.
 
 1. Haga clic en el menú desplegable **`Collections`** . Luego, marque la casilla junto a **`acme.webserver.com` .** Asegúrese de que las otras dos colecciones permanezcan desmarcadas.
 
-    <kbd><img src="./images/media/image21.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image21.png" alt=""></kbd>
 
 2. A continuación, marque la casilla junto a la aplicación Java, lo que seleccionará las cinco aplicaciones ACME. A continuación, haga clic en **`Add to group`** .
 
-<kbd><img src="./images/media/image23.png" alt=""></kbd>
+<kbd><img src="./../images/media/image23.png" alt=""></kbd>
 
 1. Proporcione un nombre de grupo como **`ACME`** y haga clic en **`Add to group(s)` .**
 
-    <kbd><img src="./images/media/image24.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image24.png" alt=""></kbd>
 
     Se ha creado un nuevo grupo llamado **ACME** , y aparece en **Grupos** en el menú de navegación de TA.
 
-    <kbd><img src="./images/media/image25.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image25.png" alt=""></kbd>
 
 2. Seleccione el grupo **`ACME`** en **`Groups`** , lo que hará que TA vuelva a calcular el esfuerzo involucrado para modernizar el espacio de trabajo con alcance para incluir solo el grupo de aplicaciones ACME.
 
-    <kbd><img src="./images/media/acme-group.png" alt=""></kbd>
+    <kbd><img src="./../images/media/acme-group.png" alt=""></kbd>
 
     Ahora ves que TA ha recalculado los costos asociados a la modernización sólo del grupo de aplicaciones ACME.
 
-    <kbd><img src="./images/media/image27.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image27.png" alt=""></kbd>
 
     El **resumen del grupo ACME** ahora muestra **5 aplicaciones** y un promedio de **1,7** días para modernizar cada aplicación.
 
@@ -385,7 +385,7 @@ Creemos un nuevo grupo para las aplicaciones ACME.
 
     El coste de modernizar el **código de aplicación único** en el grupo ACME es de solo **1,5** días.
 
-    <kbd><img src="./images/media/image29.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image29.png" alt=""></kbd>
 
     TA muestra la cantidad de archivos de código común que detectó y utilizó para cada aplicación.
 
@@ -401,21 +401,21 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
     a. Desde el grupo ACME, abra la pestaña " **`Common code`** ".
 
-    <kbd><img src="./images/media/image31.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image31.png" alt=""></kbd>
 
     b. Ahora verá el resumen de los archivos de código común, incluida la **complejidad, los problemas** , **los usos de las aplicaciones** y **el costo** de modernizar el archivo de código común.
 
-    <kbd><img src="./images/media/image32.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image32.png" alt=""></kbd>
 
 2. Regrese a la pestaña “ **`Java Applications`** ” y vea los detalles del código común utilizado por la aplicación **ACMEAnnuityEJBMDB.ear**
 
     a. Haga clic en la pestaña " **`Java applications`** " para volver a la lista de aplicaciones Java.
 
-    <kbd><img src="./images/media/image33.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image33.png" alt=""></kbd>
 
     b. Expanda la aplicación **ACMEAnnuityEJBMDB.ear** para obtener los detalles del código común utilizado por la aplicación.
 
-    <kbd><img src="./images/media/image34.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image34.png" alt=""></kbd>
 
     **Tenga en cuenta los detalles importantes sobre el costo de modernización de la aplicación y el código común.**
 
@@ -445,7 +445,7 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
     a. Expanda la aplicación “ **ACMEAnnuityEJBWSes.ear”** de la lista de aplicaciones Java.
 
-    <kbd><img src="./images/media/image37.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image37.png" alt=""></kbd>
 
     **Tenga en cuenta los detalles importantes sobre el costo de modernización de la aplicación y el código común.**
 
@@ -459,7 +459,7 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
     a. Haga clic en el archivo de código común **AcmeAnnuityCommon.jar** para obtener los detalles de la modernización.
 
-    <kbd><img src="./images/media/image40.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image40.png" alt=""></kbd>
 
     b. La vista de detalles del archivo **AcmeAnnuityCommon.jar** revela información y conocimientos muy importantes sobre la modernización de las aplicaciones ACME, como se ilustra a continuación.
 
@@ -477,7 +477,7 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
     Los conocimientos adquiridos aquí muestran claramente que realizar los **7,5** días necesarios para modernizar el archivo **AcmeAnnuityCommon.jar** significa que la MAYOR parte del trabajo se completará para las cinco (5) aplicaciones ACME.
 
-    <kbd><img src="./images/media/image41.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image41.png" alt=""></kbd>
 
 5. Mientras esté en la vista de detalles **de AcmeAnnuityCommon.jar** , desplácese hacia abajo para ver las aplicaciones que usan este jar de utilidad común.
 
@@ -485,7 +485,7 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
 6. De la lista de aplicaciones que utilizan este archivo jar de utilidad de código común, `click` en la aplicación **ACMEAnnuityEJBWSes.ear** para mostrar sus detalles.
 
-    <kbd><img src="./images/media/image41-b.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image41-b.png" alt=""></kbd>
 
 7. Mientras esté en la vista de detalles **de ACMEAnnuityEJBWSes.ear** , desplácese hacia abajo hasta las secciones de **Problemas de complejidad** y **Detalles de problemas** , donde puede comenzar a profundizar en los problemas específicos marcados por TA.
 
@@ -497,13 +497,13 @@ Con estos conocimientos, aprenderá qué bibliotecas de código común proporcio
 
     Aquí usted comienza a obtener información sobre los problemas específicos que deben abordarse y los costos asociados para resolver los problemas específicos que se descubrieron.
 
-    <kbd><img src="./images/media/image42.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image42.png" alt=""></kbd>
 
     En resumen, la información obtenida con la función de descubrimiento de código común de Transformation Advisors muestra claramente que, al realizar los **8,5** días de esfuerzo necesarios para modernizar el archivo **AcmeAnnuityCommon.jar** , se completará TODO el trabajo para las cinco (5) aplicaciones ACME. Aprendió que **7,5** días de ese trabajo se destinan a modernizar el código común, lo cual solo se requiere una vez.
 
     Recuerde que la vista de resumen del **grupo de aplicaciones ACME** mostró que el **costo total** para modernizar todo el grupo de aplicaciones ACME es de **8,5** días.
 
-    <kbd><img src="./images/media/image27.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image27.png" alt=""></kbd>
 
     <br>
 
@@ -513,19 +513,19 @@ Ahora que sabe qué aplicación necesita qué esfuerzos para modernizarse, surge
 
 1. En TA, vuelva a la vista de aplicaciones Java. Haga clic en el enlace para **obtener ayuda** .
 
-    <kbd><img src="./images/media/TA-Guidance1.png" alt="Guía TA1"></kbd>
+    <kbd><img src="./../images/media/TA-Guidance1.png" alt="Guía TA1"></kbd>
 
 2. Aparecerá un asistente que explica cómo usar la guía. Navega por ella haciendo clic en **Siguiente** y luego cierra el asistente.
 
-    <kbd><img src="./images/media/TA-Guidance2.png" alt="Guía TA2"></kbd>
+    <kbd><img src="./../images/media/TA-Guidance2.png" alt="Guía TA2"></kbd>
 
 3. En la parte superior, verás la lista de **aplicaciones sencillas** que no requieren cambios de código. Haz clic en **"Mostrar más"** para ver todas las aplicaciones.
 
-    <kbd><img src="./images/media/TA-Guidance3a.png" alt="TA-Orientación3a"></kbd>
+    <kbd><img src="./../images/media/TA-Guidance3a.png" alt="TA-Orientación3a"></kbd>
 
 4. Desplácese hacia abajo hasta la sección con **aplicaciones moderadas** .
 
-    <kbd><img src="./images/media/TA-Guidance3b.png" alt="Guía TA3b"></kbd>
+    <kbd><img src="./../images/media/TA-Guidance3b.png" alt="Guía TA3b"></kbd>
 
     Como puede ver, la guía recomienda comenzar con la aplicación moderada **ACMEAnnuityEJBMDB.ear** , ya que los cambios de código también afectarán a otras cuatro aplicaciones y solo un archivo jar se ve afectado. No dude en investigar más a fondo las diferentes recomendaciones.
 
@@ -543,13 +543,13 @@ La exportación genera un archivo zip del resumen del espacio de trabajo y/o los
 
     a. En TA, regrese a la vista **de aplicaciones Java** del `ACME group` . Haga clic en el icono **`Export`** .
 
-    <kbd><img src="./images/media/image44.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image44.png" alt=""></kbd>
 
     b. En la página "Exportar", asegúrese de que " **Resumen del espacio de trabajo** " y " **Detalles de la aplicación** " estén seleccionados para su exportación y, a continuación, haga clic en **`Export`** .
 
-    <kbd><img src="./images/media/image46.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image46.png" alt=""></kbd>
 
-    c. Acepte los valores predeterminados y haga clic en **Guardar.** <kbd></kbd>![](./images/media/image46-b.png)
+    c. Acepte los valores predeterminados y haga clic en **Guardar.** <kbd></kbd>![](./../images/media/image46-b.png)
 
     Se crea un archivo zip llamado “ **ta300_data_3_ACME_websphereLiberty_report.zip** ” en el directorio: **/home/techzone/Downloads.**
 
@@ -563,7 +563,7 @@ La exportación genera un archivo zip del resumen del espacio de trabajo y/o los
 
 3. Explore la estructura del archivo y el contenido de los datos exportados.
 
-    a. Haga clic en **Actividades** para acceder a la barra de herramientas, luego seleccione el `File Explorer` . <kbd></kbd>![](./images/media/Toolbar_fileExplorer.png)
+    a. Haga clic en **Actividades** para acceder a la barra de herramientas, luego seleccione el `File Explorer` . <kbd></kbd>![](./../images/media/Toolbar_fileExplorer.png)
 
     b. Navegue hasta el directorio:
 
@@ -573,11 +573,11 @@ La exportación genera un archivo zip del resumen del espacio de trabajo y/o los
 
     La estructura del archivo se divide en dos categorías, una para el resumen del espacio de trabajo y la otra para los detalles de la aplicación.
 
-    <kbd><img src="./images/media/image47.png" alt="imagen47"></kbd>
+    <kbd><img src="./../images/media/image47.png" alt="imagen47"></kbd>
 
     c. Abra el directorio **`summary`** .
 
-    <kbd><img src="./images/media/image47-b.png" alt="imagen47-b"></kbd>
+    <kbd><img src="./../images/media/image47-b.png" alt="imagen47-b"></kbd>
 
     ---
 
@@ -589,15 +589,15 @@ La exportación genera un archivo zip del resumen del espacio de trabajo y/o los
 
     d. Abra el directorio **`applications`** y haga doble clic en el archivo pdf para ver el resumen de aplicaciones ACME.
 
-    <kbd><img src="./images/media/image48.png" alt="imagen48"></kbd>
+    <kbd><img src="./../images/media/image48.png" alt="imagen48"></kbd>
 
-    <kbd><img src="./images/media/image49.png" alt="imagen49"></kbd>
+    <kbd><img src="./../images/media/image49.png" alt="imagen49"></kbd>
 
     e. Navegue al directorio **`ACME/ta300_data_3_ACME/summary/commonCode`** y abra el archivo PDF para ver el resumen del código común.
 
-    <kbd><img src="./images/media/image50.png" alt="imagen50"></kbd>
+    <kbd><img src="./../images/media/image50.png" alt="imagen50"></kbd>
 
-    <kbd><img src="./images/media/image51.png" alt="imagen51"></kbd>
+    <kbd><img src="./../images/media/image51.png" alt="imagen51"></kbd>
 
     Puede continuar explorando los archivos csv y pdf en las otras secciones de los datos exportados.
 
@@ -649,7 +649,7 @@ Esta herramienta de línea de comandos permite a los administradores evaluar apl
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/warn.png" style="width:0.60625in;height:0.60625in" alt="señal de precaución"></kbd></td>
+<td><kbd><img src="./../images/media/warn.png" style="width:0.60625in;height:0.60625in" alt="señal de precaución"></kbd></td>
 <td>
 <p><strong>Importante:</strong></p>
 <p>Esta sección es sólo para fines ilustrativos.</p>
@@ -679,7 +679,7 @@ La configuración del entorno de WebSphere Application Server también está dis
     java -jar binaryAppScanner.jar /opt/IBM/WebSphere/AppServer85515 --ta --profile=AppSrv01
     ```
 
-    <kbd><img src="./images/media/image52.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image52.png" alt=""></kbd>
 
     El archivo de recopilación de datos generado se llama **AppSrv01.zip** y se crea en el siguiente directorio:
 
@@ -691,25 +691,25 @@ La configuración del entorno de WebSphere Application Server también está dis
 
 **Consejo:** como se señaló en la sección anterior, los pasos de recopilación de datos ya se han realizado y el archivo **`AppSrv01.zip`** resultante se proporciona en el entorno de laboratorio en **`/home/techzone/Student/appmod-pot-labfiles/labs/TransformationAdvisor/AppSrv01.zip`** .
 
-1. En la interfaz de usuario de TA, haga clic en “ **Todas las aplicaciones Java** ” para volver a la vista “ **Todas las aplicaciones Java** ”. <kbd></kbd>![](./images/media/image53-a.png)
+1. En la interfaz de usuario de TA, haga clic en “ **Todas las aplicaciones Java** ” para volver a la vista “ **Todas las aplicaciones Java** ”. <kbd></kbd>![](./../images/media/image53-a.png)
 
     Las 15 aplicaciones deberían volver a mostrarse y enumerarse en el espacio de trabajo.
 
-    <kbd><img src="./images/media/image53.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image53.png" alt=""></kbd>
 
 2. Sube el archivo “ **AppSrv01.zip** ” a TA.
 
     a. Desde la interfaz de usuario de TA, haga clic en **`Options > Upload data`** en el menú **`options`** para comenzar a cargar el nuevo archivo **`AppSrv01.zip`** recopilado desde el escáner binario.
 
-    <kbd><img src="./images/media/image55.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image55.png" alt=""></kbd>
 
     b. Haga clic en **`Drop or add file`** .
 
-    <kbd><img src="./images/media/image56.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image56.png" alt=""></kbd>
 
     c. Vaya a **`Home > techzone > Student > appmod-pot-labfiles > labs > TransformationAdvisor`** . Seleccione **AppSrv01.zip** y haga clic **`Open`** .
 
-    <kbd><img src="./images/media/image57.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image57.png" alt=""></kbd>
 
     d. Haga clic en el menú desplegable " **Detectar colección automáticamente** ".
 
@@ -721,27 +721,27 @@ La configuración del entorno de WebSphere Application Server también está dis
 
     - Puede optar por proporcionar su propio nombre de colección único.
 
-    <kbd><img src="./images/media/image58.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image58.png" alt=""></kbd>
 
     e. En este caso, simplemente acepte la opción predeterminada " **Detectar automáticamente el nombre de la colección del archivo** ". Luego, haga clic en **`Upload`** para cargar los datos.
 
-    <kbd><img src="./images/media/image59.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image59.png" alt=""></kbd>
 
     Las aplicaciones Java en el servidor de aplicaciones WebSphere local se agregan al espacio de trabajo **ta300_data_3** .
 
     Ahora el número total de aplicaciones en el espacio de trabajo es **20** .
 
-    <kbd><img src="./images/media/image60.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image60.png" alt=""></kbd>
 
 3. Vea las aplicaciones Java en la nueva colección que se creó cuando se cargó **AppSrv01.zip** .
 
     a. Expanda la lista “Colecciones” y seleccione la nueva colección denominada **`admin.ibm.demo`** .
 
-    <kbd><img src="./images/media/image61.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image61.png" alt=""></kbd>
 
     b. Revise la lista de aplicaciones de esta colección. Esta colección incluye la aplicación **CustomerOrderServicesApp** , así como otras cuatro aplicaciones que están listas para su análisis desde el espacio de trabajo.
 
-    <kbd><img src="./images/media/image62.png" alt=""></kbd>
+    <kbd><img src="./../images/media/image62.png" alt=""></kbd>
 
     <br>
 
